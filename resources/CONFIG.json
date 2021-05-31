@@ -1,0 +1,69 @@
+{
+    "database_path": "resources/DATABASE.csv",
+    "program_name": "Package Status Reporter",
+    "program_version": "1.0",
+    "clients_list": [
+        "Charmed Aroma Inc"
+    ],
+    "clients_sheets": {
+        "Charmed Aroma Inc": "1bz115b4PJYNKSJKzwqp5uhhHxNrVt8Wmlt62s2QlvnM"
+    },
+    "database_column_headers_index": {
+        "RowNumber": 0,
+        "Customer": 1,
+        "OrderId": 2,
+        "ReferenceNum": 3,
+        "BatchOrderId": 4,
+        "ShipToName": 5,
+        "CreationDate": 6,
+        "Carrier": 7,
+        "Status": 8,
+        "ShipService": 9,
+        "ProcessDate": 10,
+        "PickTicketPrintDate": 11,
+        "TrackingNumber": 12,
+        "ShipToAddress2": 13,
+        "ShipToAddress": 14,
+        "ShipToCity": 15,
+        "ShipToZip": 16,
+        "ShipToCountry": 17,
+        "ShipToState": 18,
+        "SkuAndQty": 19
+    },
+    "scans_sheet_batches_headers": [
+        "batch",
+        "batches",
+        "scan",
+        "scans"
+    ],
+    "last_backup_path": "resources/DATABASE 05-27 16.07.05.csv",
+    "database_row_length": 12,
+    "database_OrderID_index": 2,
+    "database_BatchID_index": 3,
+    "database_Client_index": 1,
+    "database_CloseDate_index": 7,
+    "database_CreationDate_index": 7,
+    "valid_carriers": [
+        "Canada Post",
+        "DHL eCOM v4",
+        "EHub"
+    ],
+    "ups_tracking_number_info": {
+        "start_digits": "'1Z",
+        "length": 18
+    },
+    "canadapost_tracking_number_info": {
+        "start_digits": "'10",
+        "length": 16
+    },
+    "usps_tracking_number_info": {
+        "start_digits": [
+            "'93",
+            "'94"
+        ],
+        "length": 22
+    },
+    "dhl_tracking_number_info": {
+        "length": 25
+    }
+}

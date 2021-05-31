@@ -1,0 +1,7 @@
+
+Traceback (most recent call last):
+  File "W:\Logistics\Tools\PackageStatusReporterV2\PackageStatusReporterV2.py", line 325, in load_new_entries
+    parse_new_entries(header_line, data_out)
+  File "W:\Logistics\Tools\PackageStatusReporterV2\PackageStatusReporterV2.py", line 378, in parse_new_entries
+    activity_log(f"SUCCESS loading {database_file_entrybox.get()} {len(_unique_data)} entries added")
+NameError: name '_unique_data' is not defined
